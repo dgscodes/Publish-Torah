@@ -185,3 +185,15 @@ footer{
     
 
 }
+
+
+section{
+    background-color: #337CB2 ;
+    padding: 20px;
+    margin: 0;
+    border-style: groove;
+}
+
+.quote_title{
+    color: black;
+}
