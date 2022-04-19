@@ -14,6 +14,11 @@ body{
 }
 /* ======================== */
 
+main{
+    color: white;
+    text-align: center;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -22,6 +27,13 @@ body{
     margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
     padding: 12px;
 }
+
+section{
+    color: white;
+
+}
+
+
 .navbar{
     display: flex;
     position: fixed top 0;
@@ -121,9 +133,9 @@ body{
 }
 
 img{
-    max-width: 220px;
+    max-width: 200px;
     max-height: auto;
-    width: 220px;
+    width: 200px;
    height: auto ;
 
 }
@@ -184,8 +196,7 @@ font-size: 1.15em;
 }
 
 footer{
-    background-color: #337CB2;
-    padding: 40px;
+    background-color: #337CB2;padding-bottom: 20px;
     text-align: center;
     
 
@@ -197,6 +208,7 @@ section{
     padding: 20px;
     margin: 0;
     border-style: groove;
+    border-bottom: none;
 }
 
 .quote_title{
