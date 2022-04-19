@@ -97,6 +97,11 @@ body{
 
 }
 
+.emoji {
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: -13px;
+}
 
 .button:hover{
     animation: pulsate 1s 
