@@ -118,6 +118,8 @@ body{
 img{
     max-width: 220px;
     max-height: auto;
+    width: 220px;
+   height: auto ;
 
 }
 
