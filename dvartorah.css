@@ -198,6 +198,7 @@ font-size: 1.15em;
 footer{
     background-color: #337CB2;padding-bottom: 20px;
     text-align: center;
+    color: white;
     
 
 }
@@ -213,4 +214,8 @@ section{
 
 .quote_title{
     color: black;
+}
+
+.button{
+    background-color: white;
 }
