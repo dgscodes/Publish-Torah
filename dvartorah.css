@@ -49,13 +49,18 @@ section{
     align-items: center; /*Centers the children of a flex container vertically.*/
     justify-content: space-between; /*Adds space between each child of a flex container.*/
     background-color: #fff;
-    padding-block: 15px; /*Padding top and bottom*/
+    padding-block: 5px; /*Padding top and bottom*/
 }
 
 .navbar{
     position: sticky;
     top: 0;
 }
+
+.lined{
+  text-decoration: underline wavy white;
+}
+
 
 .navbar a{
     text-decoration: none;
@@ -214,10 +219,17 @@ justify-content: safe left;
 
 section{
     background-color: #337CB2 ;
-    padding: 20px;
+padding-left: 30px;
+padding-top: 20px;
     margin: 0;
-    border-style: groove;
-    border-bottom: none;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    margin: -20px;
+}
+
+section button{
+    padding-left: 30px;
 }
 
 .quote_title{
@@ -255,7 +267,7 @@ ul{
 
 
 .timing{
-    font-size: 23.5px;
+    font-size: 22.5px;
 }
 
 
