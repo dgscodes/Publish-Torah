@@ -243,3 +243,26 @@ button{
     font-family: Helvetica Neue;
 
 }
+
+ul{
+    text-align: center;
+}
+
+
+.timing{
+    font-size: 23px;
+}
+
+
+  blockquote {
+    /*
+      All of the base styles have
+      moved to the “CSS” tab above.
+    */
+    transition: transform 250ms;
+  }
+
+  blockquote:hover {
+    transform: translateY(-10px);
+  }
+</style>
